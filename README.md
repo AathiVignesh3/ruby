@@ -86,3 +86,15 @@
 ----
 **code_array13.rb**
 >Ask user to give integer inputs to make a array. Store only even values given and print the array.
+----
+## level 2 ##
+**code_array14.rb**
+>Take a slit of length n where all the numbers are non-negative and unique. Find the element in the array possessing the highest value. Split the element into two parts where first part contains the next highest value in the array and second part hold the required additive entity to get the highest value. Print the array where the highest value get splitted into those two parts.
+>>Sample input: 4 8 6 3 2
+>>Sample output: 4 6 2 6 3 2
+----
+**code_array15.rb**
+>Write a program to shift every element of an array to circularly right. E.g.-
+>>INPUT : 1 2 3 4 5
+>>OUTPUT : 5 1 2 3 4
+----
