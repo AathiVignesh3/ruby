@@ -32,56 +32,57 @@ OUTPUT LIST:["bug bun bug bun bug bug","buggy bug bug buggy","bunny bug","no bun
 ----
 # practice_rubyArray #
 **code_array1.rb**
-Take 10 integer inputs from user and store them in an array and print them on screen.
+>Take 10 integer inputs from user and store them in an array and print them on screen.
 ----
 **code_array2.rb**
-Take 10 integer inputs from user and store them in an array. Again ask user to give a number. Now, tell user whether that number is present in array or not.
+>Take 10 integer inputs from user and store them in an array. Again ask user to give a number. Now, tell user whether that number is present in array or not.
 ( Iterate over array using while loop ).
 ----
 **code_array3.rb**
-Take 20 integer inputs from user and print the following:
-number of positive numbers
-number of negative numbers
-number of odd numbers
-number of even numbers
-number of 0s.
+>Take 20 integer inputs from user and print the following:
+>>number of positive numbers
+>>number of negative numbers
+>>number of odd numbers
+>>number of even numbers
+>>number of 0s.
 ----
 **code_array4.rb**
-Take 10 integer inputs from user and store them in an array. Now, copy all the elements in another array but in reverse order.
+>Take 10 integer inputs from user and store them in an array. Now, copy all the elements in another array but in reverse order.
 ----
 **code_array5.rb**
-Write a program to find the sum of all elements of an array.
+>Write a program to find the sum of all elements of an array.
 ----
 **code_array6.rb**
-Write a program to find the product of all elements of an array.
+>Write a program to find the product of all elements of an array.
 ----
 **code_array7.rb**
-Initialize and print each element in new line of a array inside array.
+>Initialize and print each element in new line of a array inside array.
 ----
 **code_array8.rb**
-Find the largest and smallest elements of an array.
+>Find the largest and smallest elements of an array.
 ----
 **code_array9.rb**
-Write a program to print sum, average of all numbers, smallest and largest element of an array.
+>Write a program to print sum, average of all numbers, smallest and largest element of an array.
 ----
 **code_array10.rb**
-Write a program to check if elements of a array are same or not it read from front or back. E.g.-
-2	3	15	15	3	2
+>Write a program to check if elements of a array are same or not it read from front or back.
+>> E.g.-2	3	15	15	3	2
 ----
 **code_array11.rb**
-Make a array by taking 10 input from user. Now delete all repeated elements of the array.
-E.g.-
-INPUT : [1,2,3,2,1,3,12,12,32]
-OUTPUT : [1,2,3,12,32]
+>Make a array by taking 10 input from user. Now delete all repeated elements of the array.
+>>E.g.-
+>>INPUT : [1,2,3,2,1,3,12,12,32]
+>>OUTPUT : [1,2,3,12,32]
 ----
 **code_array12.rb**
-Take an array of 10 elements. Split it into middle and store the elements in two dfferent arrays. E.g.-
-INITIAL array :
-58	24	13	15	63	9	8	81	1	78
+>Take an array of 10 elements. Split it into middle and store the elements in two dfferent arrays. 
+>>E.g.-
+>>INITIAL array :
+>>58	24	13	15	63	9	8	81	1	78
 
-After spliting :
-58	24	13	15	63
-9	8	81	1	78
+>>After spliting :
+>>58	24	13	15	63
+>>9	8	81	1	78
 ----
 **code_array13.rb**
-Ask user to give integer inputs to make a array. Store only even values given and print the array.
+>Ask user to give integer inputs to make a array. Store only even values given and print the array.
