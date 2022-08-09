@@ -1,3 +1,5 @@
+# Sort the hash created in previous example according to marks
+
 student=Hash.new(0)
 puts "Enter the 10 students name and mark"
 3.times{

@@ -1,3 +1,7 @@
+# >Take 10 integer inputs from user and store them in an 
+# array. Now, copy all the elements in another array but in
+#  reverse order.
+
 puts "Enter the integer"
 my_array=[]
 for i in 1..10

@@ -1,3 +1,6 @@
+# Count the number of occurrence of each leter in word "MISSISSIPPI". 
+#  Store count of every leter with the leter in a dictionary.
+
 value ="MISSISSIPPI"
 count ={}
 words ={1=>"one",2=>"two",3=>"three",4=>"four",5=>"five",6=>"six",7=>"seven",8=>"eight"}

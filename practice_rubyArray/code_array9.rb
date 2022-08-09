@@ -1,3 +1,5 @@
+# Write a program to print sum, average of all numbers, smallest and largest element of an array.
+
 my_array=[10,2,12,4,9,12,4,50,19,0]
 sum=0
 my_array.each{|x| sum+=x }

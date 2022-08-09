@@ -1,3 +1,8 @@
+# Use hash to store antonyms of words. 
+# E.g.- 'Right'=>'Left', 'Up'=>'Down', etc. 
+# Display all words and then ask user to enter a word and 
+# display antonym of it.
+
 antonyms ={
     "Right"=>"left",
     "hot"=>"cold",

@@ -1,3 +1,6 @@
+# Take 10 integer inputs from user and store them in an 
+# array and print them on screen.
+
 puts "Enter the integer"
 my_array=[]
 for i in 1..10
