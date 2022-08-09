@@ -24,14 +24,30 @@ Output: 09/29/2021
 =end
 
 require 'date'
-a =["%Y","%m","%d","%H","%M","%S"]
-print "Enter the data"
+
+def find?(value,type)
+  a =["%Y","%m","%d","%H","%M","%S"]
+  date = DateTime.parse(value)
+  a.map!{|s| date.strftime(s).to_i}
+  date =Time.new(*a)
+  type.upcase!
+  case type
+  when "IST"
+  return "#{date.mon}/#{date.day}/#{date.year}"
+  when "PST"
+  return "#{date.day}/#{date.mon}/#{date.year}"
+  else
+    return "Undefined type"
+  end
+
+end
+
+
+print "\nEnter the data : "
 value =gets.chomp
-print "Enter the type"
+print "\nEnter the type :"
 type = gets.chomp
 
-t = Time.new
-date = DateTime.parse(value)
-a.map!{|s| date.strftime(s).to_i}
-date =Time.new(*a)
-print date
+puts find?(value,type)
+
+
