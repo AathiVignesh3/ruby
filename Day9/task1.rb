@@ -17,12 +17,11 @@ class Student
     end
 
     def displayStudDetails()
-        print  "Roll No: #{@rollNum}\nName: #{@studName}\ntotal Marks: #{@totalMarks}"
+        calculateTotal()
+        print  "Roll No: #{@rollNum}\nName: #{@studName}\ntotal Marks: #{@totalMarks}\n"
     end
 end
 
-class StudentDemo<Student
-
-end
-# std1 = Student.new()
-# std1.setStudDetails(201,"Aathi",100,90,20)
+std1 = Student.new()
+std1.setStudDetails(201,"Aathi",100,90,20)
+std1.displayStudDetails
