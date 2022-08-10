@@ -8,20 +8,27 @@
 
 
 my_array =["no bun","bug bun bug bun bug bug","bunny bug","buggy bug bug buggy"]
+puts "Enter the string"
+value = gets.chomp.downcase
+if value.to_i.to_s != value 
 my_hash ={}
-my_array.each do |x|
-    y={}
+  my_array.each do |x|
+    y=Hash.new(0)
     x.split(" ") do |x|
-        if y.has_key?(x)
-            y[x]+=1
+        if x==value
+            y[x]+=10
         else
-            y[x] =1
+            y[x]+=1
         end
     end
     y = y.sort_by{|k,v| v}.reverse
     my_hash[x]=y[0][1]
+  end
+
+  my_hash = my_hash.sort_by{|k,v| v}.reverse
+  my_array=[]
+  my_hash.each {|x| my_array<<x[0]}
+  print my_array 
+else 
+    puts "cannot use int for find "
 end
-my_hash = my_hash.sort_by{|k,v| v}.reverse
-my_array=[]
-my_hash.each {|x| my_array<<x[0]}
-print my_array
